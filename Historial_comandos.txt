@@ -1,0 +1,212 @@
+ls
+cd repogit
+ls
+cd Repo_Luna/
+ls
+git status
+git commit -m"Arq Commit"
+git config --global user.email "sobluna@gmail.com"
+git config --global user.name "SLunaX3"
+git commit -m"Arq Commit"
+git push
+git status
+exit
+ls
+ls -l
+ls -la
+man ls
+man man
+pwd
+whoami
+echo "hola"
+echo $HOME
+ls
+cat README
+cd repogit
+git clone https://github.com/SLunaX3/Repo_Luna.git
+ls
+cd Repo_Luna/
+ls
+history
+history > historial.txt
+ls
+cat historial.txt 
+git status
+git add .
+git status
+git commit -m"Arquitectura commit"
+ls -la
+grep
+grep tail -n1
+pwd
+echo $HOME
+ls
+ls -l
+ls -la
+ssh-keygen -t ed25519
+ls -la
+cd .ssh
+ls
+ls -l
+cat id_ed25519.pub
+cd ..
+ls -l
+cd repogit
+git clone git@github.com:SLunaX3/Repo_Luna.git
+ls
+cd Repo_Luna/
+ls -l
+echo "hola"
+echo "hola" > hola.txt
+ls -l
+cat hola.txt 
+git status
+git add .
+git status
+git commit -m "Agrego HOLA"
+git status
+git push
+git push -u origin main
+grep model name
+pcuinfo
+/proc
+lscpu
+lscpu | grep -i model
+head -n1
+lscpu | grep -i model | head -n1
+lscpu | grep -i model | head -n1 > infoproc.txt
+ls
+cat infoproc.txt 
+cat TP_AySO/
+cat datos_usuario.txt
+infoproc.txt > TP_AySO
+cat repogit/
+TP_AySO/
+/TP
+cd TP_AySO/
+lscpu | grep -i model | head -n1
+ls
+ls -ls
+ls -la
+git status
+grep datos
+pwd
+ls -l
+cd repogit
+ls -l
+git clone git@github.com:SLunaX3/TP_AySO.git
+ls -l
+ls -la
+git status
+cd HOME
+pwd
+cd
+pwd
+git clone https://github.com/SLunaX3/TP_AySO.git
+ls -la
+cd repogit/
+ls -l
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep -i HOME_URL /etc/os-realease
+grep HOME_URL /etc/os-realease
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url etc/etc/os-release
+grep <parámetro> Home_url /etc/os-release
+man grep
+grep <-i> Home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+id -un
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git status
+git add .
+git commit -m"ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+git status
+grep tail -n1
+pwd
+ls -la
+cd TP_AySO/
+ls -l
+cd
+cd repogit
+ls -l
+cd TP_AySO/
+ls -l
+cd
+cd  repogit/
+cd TP_AySO/
+head /proc/pcuinfo | grep -i model name
+head /pcuinfo
+lscpu | grep -i model
+lscpu | grep -i model | head -n1
+lscpu | grep -i model | head -n1 >> datos_usuario.txt
+git status
+git add .
+git status
+git commit -m"feat: Añadiendo información de CPU"
+git status
+git push
+etc/passwd
+cat etc/passwd
+cat /etc
+cd
+cd repogit/
+cat /etc/passwd
+cd TP_AySO/
+cat /etc/passwd
+[200~cat /etc/passwd
+head /etc/passwd | grep nologin
+head /etc/passwd | grep -n nologin
+head /etc/passwd | grep -n nologin | sort -k7
+head /etc/passwd | grep -v nologin | sort -t: -k7
+grep -v nologin /etc/passwd
+grep -v nologin /etc/passwd > lista_ordenada
+sort lista_ordenada -t":" -k7
+grep -v nologin /etc/passwd | sort -t":" -k7 > lista_ordenada
+git status
+git add .
+git status
+git commit -m"ADD: Listado de usuarios ordenada"
+git status
+git push
+grep -v nologin /etc/passwd | sort -t: -k7
+apropos dump traffic
+apropos dump traffic > comando_dump_net
+cat comando_dump_net
+apropos dump traffic net
+apropos dump traffic on a network
+apropos "dump traffic"
+cat comando_dump_net
+echo apropos "dump traffic"
+echo apropos "dump traffic" >> comando_dump_net
+cat comando_dump_net 
+git status
+git add .
+git status
+git commit -m"ADD: Comando para Capturar y analizar el tráfico de red"
+git status
+git push
+cat << FIN >> README.md 
+Alumno:  LUNA, SONIA B.
+Division: 115
+Turno: Mañana
+FIN
+
+cat README.md 
+git status
+git add .
+git status
+git commit -m"feat: Mis datos de alumno en el README"
+git status
+git push
+..
+history -a $HOME/.bash_history
+ls -la $HOME
+history -a $HOME/.bash_history
